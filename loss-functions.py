@@ -1,7 +1,8 @@
         
-from tensorflow.keras import backend as K
 import numpy as np
 import tensorflow as tf
+from tensorflow.keras import backend as K
+
 
 # Helper function to enable loss function to be flexibly used for 
 # both 2D or 3D image segmentation - source: https://github.com/frankkramer-lab/MIScnn
